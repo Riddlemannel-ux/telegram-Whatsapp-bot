@@ -1,4 +1,4 @@
-{{
+{
   "name": "telegram-whatsapp-bridge-bot",
   "version": "1.0.0",
   "description": "Telegram + WhatsApp bridge bot with pairing system, owner control, and 120 commands",
@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "keywords": [
     "whatsapp",
@@ -23,4 +26,4 @@
     "node-telegram-bot-api": "^0.66.0",
     "body-parser": "^1.20.2"
   }
-}Enter
+}
